@@ -1,5 +1,6 @@
 __author__ = 'Danyang'
 import numpy as np
+import numpy.linalg as la
 
 
 def prime_sieve(n):
@@ -9,6 +10,18 @@ def prime_sieve(n):
     for j in xrange(2, N_max):
         is_prime[2*j::j] = False
     return is_prime
+
+def sort(x):
+    return np.argsort(x)
+
+def help(s):
+    """
+    >>> np.lookfor('create array')
+    :param s:
+    :return:
+    """
+    np.lookfor(str)
+
 
 if __name__=="__main__":
     print np.arange(1000)

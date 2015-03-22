@@ -1,10 +1,10 @@
-# sci_util_py
+# scipy_util
 Scientific Computation Utils for Python
 
 
-#Staffs
-[ipython](http://ipython.org/) shell preferred
-ipython notebook mode 
+#Stuffs
+[ipython](http://ipython.org/) shell preferred  
+ipython notebook mode: 
 ```bash
 ipython notebook --pylab=inline
 ```
