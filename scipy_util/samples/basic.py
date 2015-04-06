@@ -8,9 +8,10 @@ def prime_sieve(n):
     is_prime = np.ones((n, ), dtype=bool)
     is_prime[:2] = 0
     N_max = int(np.sqrt(len(is_prime)))
-    for j in xrange(2, N_max):
+    for j in xrange(2, N_max+1):
         is_prime[2*j::j] = False
     return is_prime
+
 
 def sort(x):
     return np.argsort(x)
